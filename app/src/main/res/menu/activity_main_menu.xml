@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.iteso.pdm18_scrollabletabs.ActivityMain">
+    <item
+        android:id="@+id/action_technology"
+        android:orderInCategory="100"
+        android:title="@string/item1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="@string/item2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_electronics"
+        android:orderInCategory="100"
+        android:title="@string/item3"
+        app:showAsAction="never"/>
+</menu>
